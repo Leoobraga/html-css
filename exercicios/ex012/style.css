@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Rammetto+One&display=swap');
+
+
+
+* { 
+
+
+
+}
+
+
+body{
+    background-image: linear-gradient(to right, #9EF8EE, #22BABB, #348888  );
+
+
+}
+
+
+    p{
+    font-family: Hanken Grotesk;
+    text-align: justify;
+
+    
+    
+
+
+}
+h1{
+    font-family: Rammetto One;
+    text-align: center;
+    color: #FA7F08;
+    text-shadow: 1px 1px 3px  #000000;
+    font-size: 3em;
+
+
+
+}
+
+h2{
+    font-family: Rammetto One;
+    font-size: larger;
+    font-style: italic;
+    color: #FA7F08;
+    text-shadow: 1px 1px 1px  #000000;
+    text-indent: 20px;
+
+    
+
+
+}
