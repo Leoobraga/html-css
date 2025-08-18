@@ -11,10 +11,62 @@ body{
     font-family: sans-serif;
     font-size: 1em;
     line-height: 1.5em;
-    height: 100vh;
-    width: 100vw;
+    
+
+    
+}
+p{
+    margin-bottom: 10px;
+    text-align: justify;
 }
 
-img{
-    width: 400px;
+ h1, h2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+ }
+
+header, section.normal{
+    padding: 20px;
+}
+
+section.flex-cont{
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.774);
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+article.flex-media{
+    display: flex;
+    flex-flow: row wrap-reverse; 
+    justify-content: space-between;
+}
+
+article.media-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article > div.text{
+    flex: 1 1 500px;
+}
+
+article > div.media{
+    flex: 1 1 500px;
+}
+
+div.media > img{
+    display: block;
+    margin: auto;
+    width: 500px;
+    padding: 20px;
+}
+
+div.media > iframe{
+    display: block;
+    margin: auto;
+
+    width: 80%;
 }
